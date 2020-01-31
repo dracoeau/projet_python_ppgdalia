@@ -8,7 +8,7 @@ from sklearn.metrics import precision_score, recall_score, accuracy_score
 
 class XGBoostClassifier:
 	def __init__(self):
-		self.model = joblib.load("prediction/ml/income_classifier/" + "xgboost.joblib")
+		self.model = joblib.load("prediction/machine_learning/model_classifier/" + "xgboost.joblib")
 
 	def predict(self, input_data):
 		return self.model.predict_proba(input_data)

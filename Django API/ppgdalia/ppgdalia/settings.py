@@ -39,7 +39,7 @@ INSTALLED_APPS = [
 	'django.contrib.staticfiles',
 	'prediction',
 	'rest_framework',
-	'prediction.ml'
+	'prediction.machine_learning'
 ]
 
 MIDDLEWARE = [
